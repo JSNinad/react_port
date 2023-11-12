@@ -6,5 +6,32 @@
 
 /* Add your custom styles here */
 
-
+/* src/styles/tailwind.css */
+@keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(95%);
+    }
+  }
   
+  @media (min-width: 1024px) {
+    .moving-image {
+      animation: moveRight 3s forwards; /* Adjust the duration as needed */
+    }
+  }
+  
+
+/* src/styles/tailwind.css */
+/* src/styles/tailwind.css */
+.about-me-hover:hover {
+    color: rgb(205, 134, 128); /* Change to your desired hover color */
+  }
+  
+  .text-color {
+    color:  rgb(26, 230, 209)
+  }
+  .sahyadri-color{
+    color:blue
+  }
