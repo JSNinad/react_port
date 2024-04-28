@@ -6,6 +6,7 @@ import Home from './components/home';
 import AboutMe from './components/Aboutme';
 import TechStack from './components/TechStack';
 import Projects from './components/Projects';
+import Workshop from './components/workshop';
 
 
 
@@ -16,10 +17,10 @@ function App() {
       <Navbar/>
       
       <Home/>
-
       <AboutMe/>
       <TechStack/>
       <Projects/>
+      <Workshop/>
       
 
      

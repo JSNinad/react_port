@@ -10,39 +10,38 @@ const projectsData = [
  
   {
     id: 1,
-    name: ' Coming soon website',
-    description: 'Aerophilia, national Level technical event, Built a coming soon website using HTML BOOTSTRAP CSS JS ',
-    imageUrl: 'Aerophiliacs.png',
+    name: 'Recruitment Lead',
+    description: 'Currently HR and Core team member at TEAM CHALLENGERS ',
+    imageUrl: 'challhr.png',
     githubLink: 'https://github.com/JSNinad/home_aero',
     demoLink: 'https://aerophilia23cs.netlify.app/',
   },
   {
     id: 2,
-    name: 'AttendEaze',
-    description: 'Automated attendance tracking portal using Image processing and Machine learning .',
-    imageUrl: 'attendease.jpg',
-    githubLink: 'https://github.com/AnudeepKK/Attendance_backend',
-    demoLink: 'https://attendencetracker-ca4cd.web.app/',
+    name: 'Project 2: Another Project',
+    description: 'Description of Project 2. Similar to Project 1, provide detailed information about the project.',
+    imageUrl: 'aeromain.png',
+    githubLink: 'https://github.com/your-username/project2',
+    demoLink: 'https://aerophilia.in',
   },
   {
     id: 3,
-    name: 'Aerophilia Website',
-    description: 'Website for registration and maintaining data for a national-level technical event.',
-    imageUrl: 'aeromain.png',
-    githubLink: 'https://github.com/Aerophilia/Aerophilia2023',
-    demoLink: 'https://aerophilia.in/',
+    name: 'Project 3: Another Project',
+    description: 'Description of Project 3. Similar to Project 1, provide detailed information about the project.',
+    imageUrl: 'sahbill.png',
+    githubLink: 'https://github.com/your-username/project3',
+    demoLink: 'https://example.com/project3-demo',
   },
 
+  // {
+  //   id: 4,
+  //   name: 'Project 3: Another Project',
+  //   description: 'Description of Project 3. Similar to Project 1, provide detailed information about the project.',
+  //   imageUrl: 'project3.jpg',
+  //   githubLink: 'https://github.com/your-username/project3',
+  //   demoLink: 'https://example.com/project3-demo',
+  // },
   
-  {
-    id: 4,
-    name: 'Eazy Registration',
-    description: 'Extra-curricular Registration Management Portal for easy maintenance and flow of students.' ,
-    imageUrl: 'dbms.png',
-    githubLink: 'https://github.com/JSNinad/dbpro',
-    demoLink: 'https://drive.google.com/file/d/12osKrGj7guXcXL37nEaltVzU4AGs0j3N/view?usp=drivesdk',
-  },
-
   
   // {
   //   id: 5,
@@ -52,7 +51,8 @@ const projectsData = [
   //   githubLink: 'https://github.com/your-username/project3',
   //   demoLink: 'https://example.com/project3-demo',
   // },
-    
+
+  
   // {
   //   id: 6,
   //   name: 'Project 3: Another Project',
@@ -62,10 +62,27 @@ const projectsData = [
   //   demoLink: 'https://example.com/project3-demo',
   // },
   
+  // {
+  //   id: 4,
+  //   name: 'Project 3: Another Project',
+  //   description: 'Description of Project 3. Similar to Project 1, provide detailed information about the project.',
+  //   imageUrl: 'project3.jpg',
+  //   githubLink: 'https://github.com/your-username/project3',
+  //   demoLink: 'https://example.com/project3-demo',
+  // },
   
-
+  // {
+  //   id: 4,
+  //   name: 'Project 3: Another Project',
+  //   description: 'Description of Project 3. Similar to Project 1, provide detailed information about the project.',
+  //   imageUrl: 'project3.jpg',
+  //   githubLink: 'https://github.com/your-username/project3',
+  //   demoLink: 'https://example.com/project3-demo',
+  // },
+  // Add more projects as needed
 ];
-
+// ... (import statements remain unchanged)
+// ... (import statements remain unchanged)
 
 const Projects = () => {
   const sliderSettings = {
@@ -76,11 +93,10 @@ const Projects = () => {
     slidesToScroll: 1,
   };
 
-  
   return (
     <section id="projects" className="bg-gray-900 text-white p-8">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold mb-6 about-me-hover">My Projects</h2>
+        <h2 className="text-4xl font-bold mb-6 about-me-hover">Experience and achievements</h2>
 
         {/* For screens smaller than lg (mobile) */}
         <div className="lg:hidden">
@@ -117,12 +133,8 @@ const Projects = () => {
           </Slider>
         </div>
 
-        
- 
-
         {/* For screens larger than lg (laptop and above) */}
         <div className="hidden lg:flex space-x-8">
-    
           {projectsData.map((project) => (
             <div
               key={project.id}
@@ -155,11 +167,8 @@ const Projects = () => {
               </div>
             </div>
           ))}
-  
         </div>
-        
       </div>
-      
     </section>
   );
 };

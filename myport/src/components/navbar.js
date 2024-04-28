@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { Menu, X } from 'react-feather';
 
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -50,28 +51,43 @@ const Navbar = () => {
           >
             TechStack
           </button>
+          <button
+            className="text-white hover:text-gray-500"
+            onClick={() => scrollToSection('projects')}
+          >
+            Projects
+          </button>
         </div>
       </div>
       {isOpen && (
         <div className="lg:hidden mt-4">
           <button
-            className="block text-white hover:text-gray-500 mb-2"
+            className="block text-white hover:text-red-500 mb-2"
             onClick={() => scrollToSection('home')}
           >
             Home
           </button>
           <button
-            className="block text-white hover:text-gray-500 mb-2"
+            className="block text-white hover:text-red-500 mb-2"
             onClick={() => scrollToSection('about-me')}
           >
             About Me
           </button>
           <button
-            className="block text-white hover:text-gray-500"
+            className="block text-white hover:text-red-500"
             onClick={() => scrollToSection('Tech')}
           >
             TechStack
           </button>
+         
+          <button
+            className="text-white hover:text-red-500"
+            onClick={() => scrollToSection('projects')}
+          >
+            Projects
+          </button>
+
+          
         </div>
       )}
     </nav>
