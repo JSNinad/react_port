@@ -6,7 +6,11 @@ import Home from './components/home';
 import AboutMe from './components/Aboutme';
 import TechStack from './components/TechStack';
 import Projects from './components/Projects';
-import Workshop from './components/workshop';
+// import Workshop from './components/workshop';
+import Achievements from './components/achievements';
+import RectangularBox from './components/resume';
+// import CustomCursor from './components/cursor';
+import Footer from './components/footer';
 
 
 
@@ -20,7 +24,12 @@ function App() {
       <AboutMe/>
       <TechStack/>
       <Projects/>
-      <Workshop/>
+      {/* <Workshop/> */}
+      <Achievements/>
+      <RectangularBox/>
+      {/* <CustomCursor/> */}
+      <Footer/> 
+      
       
 
      

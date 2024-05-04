@@ -22,6 +22,17 @@ const Home = ({ isOpen }) => {
             alt="Your Name"
             className="moving-image rounded-3xl md:h-64 lg:h-80 xl:h-96 object-cover border-4 border-white shadow-lg md:rounded-full mt-16 lg:hover:transform lg:hover:-translate-y-10 lg:hover:shadow-white lg:transition-transform"
           />
+          {/* Display this div only on mobile screens */}
+          <div className="md:hidden absolute top-0 right-0 m-4 bg-gray-800 px-4 py-2 rounded-md">
+            <a
+              href="https://drive.google.com/file/d/1Y3lBG7rZWMBgRdjSHh5qo7cLy3RFBU2e/view?usp=drivesdk"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white font-bold"
+            >
+              RESUME
+            </a>
+          </div>
         </div>
 
         {/* This div will only appear on larger screens (laptops/desktops) */}
