@@ -25,7 +25,7 @@ const projectsData = [
   },
   {
     id: 4,
-    name: 'Technical Lead-SYNERGIA\'24',
+    name: 'Technical Lead-Synergia',
     description: 'Worked as a technical lead for a national level technical event called Synergia\'24 -3 day National Level Techincal Event conducted by Team Challengers',
     imageUrl: 'certificate.png',
   },
