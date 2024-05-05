@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center justify-center mb-4 lg:mb-0">
               <FiDownload size={24} className="text-white mr-3" />
-              <button className=" text-white hover:text-red-500 py-2 px-4 bg-gray-800 rounded-lg shadow-lg flex items-center">
+              <button className=" text-white hover:text-gray-400 py-2 px-4 bg-gray-800 rounded-lg shadow-lg flex items-center">
                 <a href="https://drive.google.com/file/d/1Y3lBG7rZWMBgRdjSHh5qo7cLy3RFBU2e/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/JSNinad"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-gray-400"
@@ -43,7 +43,7 @@ const Footer = () => {
                 <FaGithub size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/j-s-ninad-7169b9228/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-gray-400"
@@ -51,7 +51,7 @@ const Footer = () => {
                 <FaLinkedin size={24} />
               </a>
               <a
-                href="https://wa.me/yourphonenumber"
+                href="https://wa.me/8880738765"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-gray-400"
@@ -59,7 +59,7 @@ const Footer = () => {
                 <FaWhatsapp size={24} />
               </a>
               <a
-                href="https://instagram.com/yourusername"
+                href="https://www.instagram.com/ninad_shettru?igsh=MXdlYThobXNxMHh3aw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white hover:text-gray-400"

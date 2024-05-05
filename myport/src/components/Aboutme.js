@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactComponent as AboutIllustration } from './aboutme.svg'; // Import your SVG file
+import { ReactComponent as AboutIllustration } from './aboutme1.svg'; // Import your SVG file
 
 const AboutMe = () => {
   return (

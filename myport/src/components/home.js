@@ -18,7 +18,7 @@ const Home = ({ isOpen }) => {
         />
         <div className="relative">
           <img
-            src="profile.JPG"  // Replace with the correct path or URL to your image
+            src="profile.jpg"  // Replace with the correct path or URL to your image
             alt="Your Name"
             className="moving-image rounded-3xl md:h-64 lg:h-80 xl:h-96 object-cover border-4 border-white shadow-lg md:rounded-full mt-16 lg:hover:transform lg:hover:-translate-y-10 lg:hover:shadow-white lg:transition-transform"
           />
