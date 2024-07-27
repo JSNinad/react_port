@@ -29,12 +29,6 @@ function App() {
       <RectangularBox/>
       {/* <CustomCursor/> */}
       <Footer/> 
-      
-      
-
-     
-      
-     
     </div>
   );
 }
