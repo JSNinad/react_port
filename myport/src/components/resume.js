@@ -35,7 +35,7 @@ const RectangularImage = () => {
         display: isLaptopScreen ? 'block' : 'none', // Hide on smaller screens
       }}
     >
-<a href="https://drive.google.com/file/d/1hX8wstIjDvtd03TDLb5AlfPig1e3jwnB/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+<a href="https://drive.google.com/file/d/14S06k43mEUOIGA2e3FboGcJucKlB7KnM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
   <img
     src="res.jpeg"
     alt="Rectangular"
