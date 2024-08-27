@@ -24,6 +24,9 @@ const TechStack = () => {
           <TechItem name="Boostrap" />
           <TechItem name="Firebase" />
           <TechItem name="AWS" />
+          <TechItem name="Azure" />
+          <TechItem name="Docker" />
+          <TechItem name="Kubernetes" />
           <TypedTechItem name="" />
           {/* Add more technologies as needed */}
         </div>
