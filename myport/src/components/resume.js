@@ -23,27 +23,34 @@ const RectangularImage = () => {
     };
   }, []);
 
+  // Calculate transform properties based on scroll position
+  const transformStyle = {
+    transform: `translate(${scrollPosition * 0.1}px, ${scrollPosition * 0.1}px) rotate(${scrollPosition * 0.05}deg) scale(${1 + scrollPosition * 0.0005})`,
+  };
+
   return (
     <div
       style={{
         position: 'fixed',
-        top: `${scrollPosition}px`,
-        left: `${scrollPosition}px`,
+        top: '20px', // Starting position
+        left: '20px', // Starting position
         width: '100px',
         height: '50px',
-        transition: 'top 0.3s ease, left 0.3s ease', // Added easing for smoother movement
+        transition: 'transform 0.3s ease', // Smooth animation for transform
         display: isLaptopScreen ? 'block' : 'none', // Hide on smaller screens
+        ...transformStyle, // Apply transform styles
+        boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.2)', // Add shadow for depth
+        opacity: `${1 - scrollPosition * 0.001}`, // Decrease opacity as the user scrolls down
       }}
     >
-<a href="https://drive.google.com/file/d/14S06k43mEUOIGA2e3FboGcJucKlB7KnM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-  <img
-    src="res.jpeg"
-    alt="Rectangular"
-    style={{ width: '100%', height: '100%' }}
-    className="rounded-full"
-  />
-</a>
-
+      <a href="https://drive.google.com/file/d/1b1OMDQkyxx-QwAp7RUCvZESiioGJJCEQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <img
+          src="res.jpeg"
+          alt="Rectangular"
+          style={{ width: '100%', height: '100%', borderRadius: '8px', transition: 'filter 0.3s ease' }} // Added border-radius and transition for hover
+          className="hover:filter hover:brightness-125" // Brighten image on hover
+        />
+      </a>
     </div>
   );
 };

@@ -28,7 +28,7 @@ const Footer = () => {
             <div className="flex items-center justify-center mb-4 lg:mb-0">
               <FiDownload size={24} className="text-white mr-3" />
               <button className=" text-white hover:text-gray-400 py-2 px-4 bg-gray-800 rounded-lg shadow-lg flex items-center">
-                <a href="https://drive.google.com/file/d/14S06k43mEUOIGA2e3FboGcJucKlB7KnM/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1b1OMDQkyxx-QwAp7RUCvZESiioGJJCEQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </button>
